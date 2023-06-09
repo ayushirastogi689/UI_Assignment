@@ -1,4 +1,5 @@
 .footer {
   background-color: #050607;
-  height: 50px; /* Adjust the height as per your requirement */
+  overflow: hidden;
+  height: 50px;
 }
