@@ -8,7 +8,7 @@
 }
 
 .navbar-logo {
-  /* Add styles for company logo */
+  margin-left: 130px;
 }
 
 .navbar-links {
@@ -23,10 +23,20 @@
 }
 
 .navbar-links a {
-  color: white;
+  color: #c2cad3;
   text-decoration: none;
 }
 
 .navbar-icons {
-  /* Add styles for icons */
+  display: flex;
+  gap: 10px; /* Add gap between icons */
+}
+
+/* Adjust the size of the icons */
+.navbar-icons img {
+  margin-right: 20px;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  background-color: #c2cad3;
 }
