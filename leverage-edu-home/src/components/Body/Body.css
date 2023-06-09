@@ -1,6 +1,5 @@
 .body-container {
   display: flex;
-
   margin-top: 0px;
   background: linear-gradient(to right, #050607, #002541);
 }
@@ -23,7 +22,7 @@
   color: #c2cad3;
 }
 
-.tagline {
+.live-section {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
@@ -35,7 +34,7 @@
   height: 40px;
 }
 
-.tagline span {
+.live-section span {
   font-weight: bold;
   margin-right: 10px;
 }
@@ -44,7 +43,7 @@
   margin-bottom: 20px;
 }
 
-.gradient-button {
+.primary-button {
   background: linear-gradient(to left, #00aaff, #0077ff);
   color: white;
   padding: 10px 72px;
@@ -54,7 +53,7 @@
   font-weight: bold;
 }
 
-.white-button {
+.secondary-button {
   background-color: white;
   color: black;
   padding: 10px 110px;
@@ -68,6 +67,5 @@
 }
 
 .right-column {
-  /* Styles for the right column */
   width: 65%;
 }

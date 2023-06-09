@@ -29,10 +29,9 @@
 
 .navbar-icons {
   display: flex;
-  gap: 10px; /* Add gap between icons */
+  gap: 10px; 
 }
 
-/* Adjust the size of the icons */
 .navbar-icons img {
   margin-right: 20px;
   cursor: pointer;

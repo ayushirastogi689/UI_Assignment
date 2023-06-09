@@ -1,5 +1,6 @@
 import React from "react";
 import "./Body.css";
+import CarouselComponent from "../CarouselComponent/CarouselComponent";
 
 const Body = () => {
   return (
@@ -10,8 +11,8 @@ const Body = () => {
           They are the global citizens of tomorrow. Start your abroad journey
           today.
         </p>
-        <div className="tagline">
-          <span>Live on </span>
+        <div className="live-section">
+          <span> Live on </span>
           <img
             className="disney_hotstar"
             src="https://i.imgur.com/U4Op2KW.jpeg"
@@ -19,12 +20,12 @@ const Body = () => {
           />
         </div>
         <div className="buttons">
-          <button className="gradient-button">
+          <button className="primary-button">
             Get Your Shortlist for Free
           </button>
         </div>
         <div className="buttons">
-          <button className="white-button">Talk to an expert</button>
+          <button className="secondary-button">Talk to an expert</button>
         </div>
         <div className="description">
           <p>95% of our students get an admit in less than 4 weeks</p>
@@ -37,7 +38,7 @@ const Body = () => {
         />
       </div>
       <div className="right-column">
-        {/* Carousel with images and controls */}
+        <CarouselComponent />
       </div>
     </div>
   );
