@@ -1,5 +1,6 @@
 .body-container {
-  overflow: hidden;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
   display: flex;
   margin-top: 0px;
   height: 100vh;
