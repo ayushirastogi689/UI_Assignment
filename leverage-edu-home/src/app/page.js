@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Header from "../components/Header/Header";
 import Body from "../components/Body/Body";
-import Footer from "../components/Footer/Footer";
 import Head from "next/head";
 
 function Home() {
@@ -13,7 +12,6 @@ function Home() {
         </Head>
         <Header />
         <Body />
-        
       </>
     </main>
   );

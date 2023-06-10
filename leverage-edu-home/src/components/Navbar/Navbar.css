@@ -4,7 +4,6 @@
   justify-content: space-between;
   background-color: #050607;
   color: white;
-
   overflow: hidden;
   padding: 10px;
 }
@@ -31,7 +30,7 @@
 
 .navbar-icons {
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 
 .navbar-icons img {
